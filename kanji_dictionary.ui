@@ -240,6 +240,9 @@
    <property name="features">
     <set>QDockWidget::DockWidgetMovable</set>
    </property>
+   <property name="windowTitle">
+    <string>Kanji list</string>
+   </property>
    <attribute name="dockWidgetArea">
     <number>1</number>
    </attribute>
@@ -247,13 +250,6 @@
     <layout class="QVBoxLayout" name="verticalLayout_4">
      <item>
       <layout class="QVBoxLayout" name="verticalLayout_2">
-       <item>
-        <widget class="QLabel" name="label_5">
-         <property name="text">
-          <string>Kanji list</string>
-         </property>
-        </widget>
-       </item>
        <item>
         <widget class="QListView" name="listView"/>
        </item>
